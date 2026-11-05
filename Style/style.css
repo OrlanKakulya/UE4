@@ -32,7 +32,7 @@ h1 {
     -webkit-text-stroke: 1px;
 }
 
-pre {
+.p1 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     padding-left: 25vw;
@@ -49,7 +49,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-img {
+.img {
     max-width: 30vw;
     max-height: 40vh;
 }
@@ -115,4 +115,21 @@ aside {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     padding-left: 25vw;
+}
+
+.p2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+
+#Bisse {
+    max-width: 80vw;
+    max-height: 90vh;
+    padding-bottom: 8vh;
+}
+
+#BisseSECTION {
+    display: flex;
+    justify-content: center;
 }
