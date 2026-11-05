@@ -1,0 +1,33 @@
+html * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: "EB Garamond", serif; */
+}
+
+.cagliostro-regular {
+    font-family: "Cagliostro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../Images/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    width: 100vw;
+    color: rgba(255, 255, 255, 0.85);
+    /* mettre outline titre */
+}
+
+h1 {
+    text-align: center;
+    font: 800 40px Arial;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
