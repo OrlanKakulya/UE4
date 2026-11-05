@@ -43,6 +43,7 @@ h2 {
     letter-spacing: 3px;
     word-spacing: 8px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 img {
@@ -57,12 +58,15 @@ main {
 
 div {
     width: 50vw;
+    padding-left: 90px;
+    padding-top: 40px;
 }
 
 #mainTXT1 {
     display: flex;
     flex-direction: column;
     width: 50vw;
+    padding-left: 10px;
 }
 
 #mainIMG1 {
@@ -74,6 +78,31 @@ div {
 
 .imgMAIN {
     max-width: 20vw;
-    max-height: 30vh;
+    max-height: 10vh;
     padding: 10px;
+}
+
+.blackOutlinebtn {
+    font-family: "Cagliostro", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    outline: solid 5px black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.blackOutlinebtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.preCenter {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    padding-left: 25vw;
 }
