@@ -196,3 +196,8 @@ article {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
 }
+
+#lastp {
+    text-align: center;
+    margin: 10px;
+}
