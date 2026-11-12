@@ -38,6 +38,12 @@ h1 {
     padding-left: 25vw;
 }
 
+.p3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    padding-left: 10vw;
+}
+
 h2 {
     font: 800 30px Arial;
     font-weight: 800;
@@ -52,6 +58,13 @@ h2 {
 .img {
     max-width: 30vw;
     max-height: 40vh;
+}
+
+.img2 {
+    max-width: 30vw;
+    max-height: 40vh;
+    margin-left: 35vw;
+    margin-bottom: 4vh;
 }
 
 main {
