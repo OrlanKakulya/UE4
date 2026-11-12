@@ -133,3 +133,40 @@ aside {
     display: flex;
     justify-content: center;
 }
+
+body>nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+body>nav ul li {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Cagliostro", sans-serif;
+    outline: solid 5px black;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: black;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+    font-family: "Cagliostro", sans-serif;
+    outline: solid 5px black;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: white;
+    padding: 15px;
+}
